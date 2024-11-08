@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="13.409" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value=".\Drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vinot\VQAAutomtion\B49SeleniumDevOpsDemo\target\test-classes;C:\Users\vinot\VQAAutomtion\B49SeleniumDevOpsDemo\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire17527131369765165494\surefirebooter-20241108105806538_3.jar C:\Windows\Temp\surefire17527131369765165494 2024-11-08T10-58-06_318-jvmRun1 surefire-20241108105806538_1tmp surefire_0-20241108105806538_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\vinot\VQAAutomtion\B49SeleniumDevOpsDemo\target\test-classes;C:\Users\vinot\VQAAutomtion\B49SeleniumDevOpsDemo\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\vinot\VQAAutomtion\B49SeleniumDevOpsDemo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire17527131369765165494\surefirebooter-20241108105806538_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.13+11"/>
+    <property name="user.name" value="VINOTHR$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.13+11"/>
+    <property name="localRepository" value="C:\Windows\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="java.version" value="17.0.13"/>
+    <property name="user.dir" value="C:\Users\vinot\VQAAutomtion\B49SeleniumDevOpsDemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.9.9-bin\apache-maven-3.9.9/bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\/bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.13+11"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="launchApplication" classname="com.automation.registerdemoflow.RegisterDemoFlow" time="5.766">
+    <system-out><![CDATA[Application is launched successdully
+Both the actual and expected URLs are the same
+The current URl page is https://vinothqaacademy.com/
+Both the actual and expected titles are the same
+The page title is Vinoth Q.A Academy - Learn With Clarity
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 129.0.6668.58 (81a06fb873a9b386848719cf9f93e59579fb5d4b-refs/branch-heads/6668@{#1318}) on port 12653
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 12653.
+[1731043688.620][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.
+Nov 08, 2024 10:58:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="navigationToRegisterPage" classname="com.automation.registerdemoflow.RegisterDemoFlow" time="1.399">
+    <system-out><![CDATA[Register Page is displayed
+]]></system-out>
+  </testcase>
+  <testcase name="registerUser" classname="com.automation.registerdemoflow.RegisterDemoFlow" time="5.346">
+    <system-out><![CDATA[Actual and Expected logo image text are same
+Actual logo image is Vinoth Q.A Academy
+Actual and Expected form title are same
+Actual form title is Register For Demo
+First name is displayed
+First name entered is Shanawaz
+Last name is displayed
+Last name entered is Alam
+Male radio button is not selected
+Male radio button is selected
+Address is displayed
+Address entered is H.no 2, village- abc
+Address is displayed
+street address entered is near smart tower
+Apt is displayed
+Apt entered is Apartment-1
+City is displayed
+City entered is Gkp
+State is displayed
+State entered is UP
+Country dropdown is displayed
+Country selected is India
+Email is displayed
+Email entered is shah1791@gmail.com
+DOD is displayed
+DOD entered is 09/30/24
+Convenient time HH dropdown is displayed
+Convenient time HH selected is 02
+Convenient time MM dropdown is displayed
+Convenient time MM selected is 05
+Mobile number is displayed
+Mobile numbber entered is 1234567890
+Java Check Box is not selected
+Java Check Box is CHECKED
+Selenium webdriver Check Box is not selected
+Selenium webdriver Check Box is CHECKED
+Devops Check Box is selected
+Devops Check Box is unchecked
+Enter your query is displayed
+Query entered is Is learning selenium automation using java easy?
+33
+Varification succcessfull
+Submit button is enabled
+Submit button is clicked
+User is registered
+]]></system-out>
+  </testcase>
+  <testcase name="verifySuccessfulMessage" classname="com.automation.registerdemoflow.RegisterDemoFlow" time="0.068">
+    <system-out><![CDATA[Both actual and expected successful message are same
+Successful message is Registration Form is Successfully Submitted. The Transaction ID : 2320802234
+2320802234
+Successful message is verified Successfully
+]]></system-out>
+  </testcase>
+  <testcase name="closeApplicaton" classname="com.automation.registerdemoflow.RegisterDemoFlow" time="0.151">
+    <system-out><![CDATA[Application is closed Successfully
+]]></system-out>
+  </testcase>
+</testsuite>
