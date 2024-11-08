@@ -16,7 +16,7 @@ public class RegisterDemoFlow {
 
 	String url = "https://vinothqaacademy.com";
 	String firstNameValue = "Vinoth";
-	String lastNameValue = "R";
+	String lastNameValue = "Rathinam";
 	//String gender = "Male";
 	String addressValue = "H.no 2, village- abc";
 	String streetaddressValue = "near smart tower";
