@@ -15,8 +15,8 @@ public class RegisterDemoFlow {
 	public JavascriptExecutor jse;
 
 	String url = "https://vinothqaacademy.com";
-	String firstNameValue = "Shanawaz";
-	String lastNameValue = "Alam";
+	String firstNameValue = "Vinoth";
+	String lastNameValue = "R";
 	//String gender = "Male";
 	String addressValue = "H.no 2, village- abc";
 	String streetaddressValue = "near smart tower";
